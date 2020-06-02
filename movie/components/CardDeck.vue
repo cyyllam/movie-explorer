@@ -8,10 +8,8 @@
     v-bind:img-alt="'Poster image of ' + result.title + ' from tMDB'" 
     img-top>
         <b-card-text>
-            <p>{{ result.overview}}</p>
-            <p>Vote Average:</p>
-            <p>{{ result.vote_average}}</p>
-            
+          <p>Vote Average: {{ result.vote_average }}</p> 
+          <p style="font-size: .9rem;">{{ result.overview }}</p>             
         </b-card-text>
         <template v-slot:footer>
             <small class="text-muted">Release Date: {{ result.release_date }}</small>
@@ -29,3 +27,7 @@ export default {
     }
 }
 </script>
+
+<style>
+
+</style>
