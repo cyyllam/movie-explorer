@@ -6,7 +6,7 @@
             It's easy to google for a generic list of the best movies to watch, but sometimes that search can be 
             onerous when you have something more specific in mind. Perhaps you're looking for a list of movies trending
             this week, or maybe a list of movies off the beaten path that matches original language or year release criteria. Maybe you just want to know, 
-            of the films Ryan Gosling has acted in, which have won awards? Look no further, click on <span class='italics'>Trends</span> to get started.
+            of the films Ryan Gosling has acted in, which have won awards? Look no further, click on <span class='italics'>Explore</span> to get started.
           </p>
       </Intro>
     </div>  
