@@ -18,7 +18,7 @@
           <b-navbar-nav>
             <!-- embed nuxt-links to -->
             <b-nav-item to="/">Home</b-nav-item>
-            <b-nav-item to="/Trends">Trends</b-nav-item>
+            <b-nav-item to="/Trends">Explore</b-nav-item>
             <b-nav-item to="/About">About</b-nav-item>
 
           </b-navbar-nav>

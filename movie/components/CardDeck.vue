@@ -1,4 +1,5 @@
 <template>
+<!-- this card deck returns space for an image, title, 2 paragraphs, and a footer -->
   <div>
     <b-card  
     style="max-width: 13rem;" 
@@ -8,7 +9,7 @@
     v-bind:img-alt="'Poster image of ' + result.title + ' from tMDB'" 
     img-top>
         <b-card-text>
-          <p>Vote Average: {{ result.vote_average }}</p> 
+          <p>User rating: {{ result.vote_average }}</p> 
           <p style="font-size: .9rem;">{{ result.overview }}</p>             
         </b-card-text>
         <template v-slot:footer>
@@ -22,12 +23,11 @@
 export default {
 	props: {
 		result: Object
-    },
-    methods: {
     }
 }
 </script>
 
 <style>
+
 
 </style>
