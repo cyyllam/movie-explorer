@@ -9,7 +9,7 @@ I plan on using a combination of The Movie Database (tMDB).
 
 # Search Engine Optimization (SEO)
 
-The SEO is the practice of increasing quality and quantity of organic traffic to your website. You want to make sure that the traffic to your site is intentional and is what the user was looking for, and you want to generate traffic free of cost. 
+The SEO is the practice of increasing quality and quantity of organic traffic to your website. The SEO is to ensure that traffic to your site is intentional, that it is what the user was looking for, and that the traffic generated is free of cost. 
 
 ## Ideal SEO Implementation
 
@@ -17,11 +17,11 @@ The SEO is the practice of increasing quality and quantity of organic traffic to
 
 - Understand our digital competitors. 
 
-- Creating an effective information architecture that reduces the number of clicks away from the homepage to allow search engines and users to find content in as few clicks as possible.
+- Creating an effective information architecture that reduces the number of clicks away from the homepage. This will allow search engines and users to find content in as few clicks as possible.
 
-- Implement responsive design
+- Implement responsive design.
 
-- Optimize with Python or R! Using common tools of data science to gather data and evidence of traffic on your own site rather than relying on speculation. The data analysis on log files for example and other metrics is allowing you to tell a story about the website and its traffic.
+- Optimize with Python or R! Use common tools of data science to gather data and evidence of traffic on your own site rather than relying on speculation. The data analysis on log files or other metrics allows you to tell a story about the website and its traffic.
 
 
 
