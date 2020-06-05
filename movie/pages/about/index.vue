@@ -11,7 +11,7 @@
               third quarter of the Front-end Development Certificate Program at the University of Washington. 
             </p>
             <p>
-              <span class='italics'>Movie Explorer</span> was created with the intention of having a tool where I could better query or
+              Movie Explorer was created with the intention of having a tool where I could better query or
               view movie trends, statistics, or trivia that interested me. 
             </p>
           </b-card-text>
@@ -51,6 +51,7 @@ export default {
   },
   data () {
     return {
+      title: 'About: Movie Explorer',
       items: [
         {header: 'Data Sources', 
         text: `Data and trends are pulled from The Movie Database (TMDb). Visit https://www.themoviedb.org/ to 
@@ -58,15 +59,16 @@ export default {
         {header: 'Contact', text: 'C. Lam'}
         ]
     }
+  },
+   head () {
+    return {
+      title: this.title,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: 'description', content: 'Movie Explorer was created as a student project using the tMDB API.' }
+      ]
+    }
   }
 }
 
 </script>
-
-<style>
-
-.italics {
-  font-style: italic;
-}
-
-</style>

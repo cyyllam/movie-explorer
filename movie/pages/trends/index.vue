@@ -104,6 +104,16 @@ import CardDeck from '~/components/CardDeck.vue';
 import axios from 'axios';
 
 export default {
+    title: 'Explore: Discover trending or highly rated movies',
+    head () {
+    return {
+      title: this.title,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: 'description', content: 'View a list of trending movies for the week or for the day. You can also explore non-English language films by year and language.' }
+      ]
+    }
+    },
     components: {
       Intro,
       CardDeck
@@ -120,8 +130,9 @@ export default {
             {value: 'hi', text: 'Hindi'},
             {value: 'ja', text: 'Japanese'},
             {value: 'ko', text: 'Korean'},
-             {value: 'ru', text: 'Russian'},
+            {value: 'ru', text: 'Russian'},
             {value: 'es', text: 'Spanish'},
+            {value: 'ta', text: 'Tamil'}
             ],
           selLangDiscover: null,
           enteredLangDiscover: null,
